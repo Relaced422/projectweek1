@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header class="sticky">
         <div>
             <nav class="bg-[#F0F0F7] p-4 relative">
                 <ul class="flex space-x-4 justify-end text-[#817692]">
@@ -34,8 +35,63 @@
             </nav>
         </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section class="bg-[#F0F0F7]">
+            <div class="flex">
+                <div class="ml-[15vw] mt-[2vw] text-[#402E56] font-bold">
+                    <h1 class="text-6xl">Software<br>Developer</h1>
+                    <h3 class="text-2xl mt-[2vw]">Bouw wat morgen nodig heeft</h3>
+                    <nav>
+                        <ul class="flex space-x-4 mt-[2vw]">
+                            <li><a href="#" class="hover:underline">Home</a></li>
+                            <li><a href="#" class="hover:underline">Opleiding</a></li>
+                            <li><a href="#" class="hover:underline">Toekomst</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="width-[500px] flex justify-end">
+                    <img src="img/developer.png" alt="software developer" width="75%">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="flex items-center bg-white h-[300px] flex-col">
+                <h2 class="text-4xl font-bold text-[#402E56]">Wat doet een Software Developer?</h2>
+                <div class="w-[50vw] text-pretty border-4 border-black rounded-lg">
+                    <p> Software Developer bedenkt en bouwt de technologie achter websites, apps en programma’s die we
+                        dagelijks gebruiken. Denk aan social media-platforms, online winkels, games of zelfs de software
+                        in
+                        auto’s en telefoons.
+                        <br>
+                        <br>
+                        Als developer schrijf je code in verschillende programmeertalen, zoals Java, HTML, CSS en
+                        JavaScript, om ideeën om te zetten in werkende producten. Je test of alles goed werkt, lost
+                        fouten
+                        op en zorgt dat de software veilig en gebruiksvriendelijk blijft.
+                        <br>
+                        <br>
+                        Daarnaast werk je vaak samen met andere ontwikkelaars en ontwerpers. Samen bespreek je wat de
+                        gebruiker nodig heeft en hoe je dat technisch het beste kunt bouwen.
+                        <br>
+                        <br>
+                        Kort gezegd: een Software Developer is een probleemoplosser die technologie maakt die het leven
+                        makkelijker, sneller en slimmer maakt.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="flex justify-between bg-red-500 p-4 text-[#817692] items-center">
+        <img src="img/roclogo.png" alt="roc logo" width="5%">
+        <nav clas>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:underline">Volgende</a></li>
+                <li><a href="#" class="hover:underline">Contact</a></li>
+                <li><a href="#" class="hover:underline">Social Media</a></li>
+            </ul>
+        </nav>
+        <img src="img/roclogo.png" alt="roc logo" width="5%" class="opacity-0">
+    </footer>
 </body>
 
 </html>
