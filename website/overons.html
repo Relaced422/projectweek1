@@ -17,15 +17,15 @@
     <header class="sticky">
         <div>
             <nav class="bg-[#F0F0F7] p-4 relative">
-                <ul class="flex space-x-4 justify-end text-[#817692]">
+                <ul class="flex space-x-4 justify-end text-[#817692] max-w-6xl mx-auto">
                     <li><a href="overons.html" class="hover:underline">Over ons</a></li>
                     <li><a href="contact.html" class="hover:underline">Contact</a></li>
                     <li><a href="samenwerken.html" class="hover:underline">Bedrijven</a></li>
                 </ul>
             </nav>
         </div>
-        <img src="img/rocLogo.png" alt="roc logo" width="12%" class="absolute top-[-20px]">
-        <div>
+        <div class="relative max-w-6xl mx-auto">
+            <img src="img/rocLogo.png" alt="roc logo" width="12%" class="absolute top-[-20px]">
             <nav class="p-4">
                 <ul class="flex space-x-4 text-black font-bold ml-[12vw]">
                     <li><a href="index.html" class="hover:underline">Home</a></li>
@@ -35,78 +35,111 @@
             </nav>
         </div>
     </header>
+
     <main>
+        <!-- Hero -->
         <section class="bg-[#F0F0F7]">
-            <div class="m-10 flex p-3">
-                <div class="w-[80vw]">
+            <div class="max-w-6xl mx-auto m-10 flex flex-wrap p-3 items-center gap-8">
+                <div class="flex-1 min-w-[320px]">
                     <h1 class="text-6xl mb-4">Over ons</h1>
-                    <p class="w-[30vw] text-2xl">Informatie over onze school
-                        en medewerkers</p>
+                    <p class="text-2xl max-w-[500px]">
+                        Informatie over onze school
+                        en medewerkers
+                    </p>
                 </div>
-                <img src="img/devThumbsup.png" alt="Developer holding some papers" class="mx-10 w-[50vw]">
+                <div class="flex-1 min-w-[320px] flex justify-center">
+                    <img src="img/devThumbsup.png" alt="Developer holding some papers"
+                        class="w-full max-w-[500px] h-auto mx-10">
+                </div>
             </div>
         </section>
+
+        <!-- Wat ons uniek maakt -->
         <section>
-            <div class="flex flex-col items-center">
-                <h1 class="text-6xl">Wat ons uniek maakt</h1>
-                <div class="p-3 bg-[#F0F0F7] rounded-lg w-[50vw] text-2xl text-center mt-3">Moderne leeromgeving:
-                    Technovium is dé plek waar technologie, creativiteit en onderwijs samenkomen.</div>
-                <div class="flex">
+            <div class="flex flex-col items-center max-w-6xl mx-auto px-4">
+                <h1 class="text-6xl mt-6 text-center">Wat ons uniek maakt</h1>
+
+                <div class="p-3 bg-[#F0F0F7] rounded-lg w-full max-w-[700px] text-2xl text-center mt-3">
+                    Moderne leeromgeving: Technovium is dé plek waar technologie, creativiteit en onderwijs samenkomen.
+                </div>
+
+                <div class="flex items-center justify-center mt-3 gap-2 flex-wrap">
                     <img src="img/bookImage.png" alt="" class="opacity-0 h-[155px] mx-2">
-                    <div class="p-3 bg-[#D4D4E8] rounded-lg w-[50vw] text-2xl text-center mt-3">Actuele vakkennis: Van
-                        front-end tot back-end, van databases tot UX — onze studenten werken met de tools van nu.</div>
+                    <div class="p-3 bg-[#D4D4E8] rounded-lg w-full max-w-[700px] text-2xl text-center">
+                        Actuele vakkennis: Van front-end tot back-end, van databases tot UX — onze studenten werken met
+                        de tools van nu.
+                    </div>
                     <img src="img/bookImage.png" alt="" class="h-[155px] mx-2">
                 </div>
-                <div class="p-3 bg-[#BFBFDA] rounded-lg w-[50vw] text-2xl text-center mt-3">Persoonlijke begeleiding:
-                    Kleine klassen, betrokken docenten en ruimte voor jouw ontwikkeling.</div>
-                <div class="flex">
+
+                <div class="p-3 bg-[#BFBFDA] rounded-lg w-full max-w-[700px] text-2xl text-center mt-3">
+                    Persoonlijke begeleiding: Kleine klassen, betrokken docenten en ruimte voor jouw ontwikkeling.
+                </div>
+
+                <div class="flex items-center justify-center mt-3 gap-2 flex-wrap">
                     <img src="img/hardwareImage.png" alt="" class="h-[155px] mx-2">
-                    <div class="p-3 bg-[#A4A4C9] rounded-lg w-[50vw] text-2xl text-center mt-3">Praktijkgericht leren:
-                        Projecten, stages en samenwerking met bedrijven staan centraal.</div>
-                    <img src="img//hardwareImage.png" alt="" class="h-[155px] opacity-0 mx-2">
+                    <div class="p-3 bg-[#A4A4C9] rounded-lg w-full max-w-[700px] text-2xl text-center">
+                        Praktijkgericht leren: Projecten, stages en samenwerking met bedrijven staan centraal.
+                    </div>
+                    <img src="img/hardwareImage.png" alt="" class="h-[155px] opacity-0 mx-2">
                 </div>
             </div>
         </section>
+
+        <!-- Over de opleiding -->
         <section>
-            <div class="flex flex-col items-center mt-5">
-                <h1 class="text-6xl m-5">Over de opleiding</h1>
-                <div class="p-3 bg-[#F0F0F7] rounded-lg w-[50vw] text-2xl text-center mt-3">Onze opleiding is bedoeld
-                    voor nieuwsgierige doeners met een passie voor technologie. Of je nu apps wilt bouwen, websites wilt
-                    ontwerpen of slimme software wilt ontwikkelen — bij ons leer je het vanaf de basis tot professioneel
-                    niveau.</div>
-                <div class="flex">
+            <div class="flex flex-col items-center mt-5 max-w-6xl mx-auto px-4">
+                <h1 class="text-6xl m-5 text-center">Over de opleiding</h1>
+                <div class="p-3 bg-[#F0F0F7] rounded-lg w-full max-w-[700px] text-2xl text-center mt-3">
+                    Onze opleiding is bedoeld voor nieuwsgierige doeners met een passie voor technologie. Of je nu apps
+                    wilt bouwen, websites wilt ontwerpen of slimme software wilt ontwikkelen — bij ons leer je het
+                    vanaf de basis tot professioneel niveau.
+                </div>
+                <div class="flex items-center justify-center mt-3 gap-2 flex-wrap">
                     <img src="img/bookImage.png" alt="" class="opacity-0 h-[155px] mx-2">
-                    <div class="p-3 bg-[#D4D4E8] rounded-lg w-[50vw] text-2xl text-center mt-3">Wij geloven dat goed
-                        onderwijs begint bij de praktijk. Daarom staat leren door doen centraal. Studenten werken met
-                        actuele technologieën, in moderne labs, en in nauwe samenwerking met bedrijven uit de regio. Zo
-                        zorgen we ervoor dat ze klaar zijn voor de arbeidsmarkt van morgen.</div>
+                    <div class="p-3 bg-[#D4D4E8] rounded-lg w-full max-w-[700px] text-2xl text-center">
+                        Wij geloven dat goed onderwijs begint bij de praktijk. Daarom staat leren door doen centraal.
+                        Studenten werken met actuele technologieën, in moderne labs, en in nauwe samenwerking met
+                        bedrijven uit de regio. Zo zorgen we ervoor dat ze klaar zijn voor de arbeidsmarkt van morgen.
+                    </div>
                     <img src="img/globeIcon.png" alt="" class="h-[155px] mx-2">
                 </div>
             </div>
         </section>
+
+        <!-- Wat we bieden -->
         <section>
-            <div class="flex flex-col items-center mt-5">
-                <h1 class="text-6xl m-5">Wat we bieden</h1>
-                <div class="flex flex-col">
-                    <div class="flex">
-                        <div class="p-3 bg-[#F0F0F7] rounded-full w-[40vw] text-2xl text-center m-3 p-5">Actuele vakkennis:
-                            HTML, CSS, JavaScript, Python, databases, Git, Agile/Scrum en meer..</div>
-                        <div class="p-3 bg-[#D4D4E8] rounded-full w-[40vw] text-2xl text-center m-3 p-5">Projectmatig
-                            onderwijs: Studenten werken in teams aan realistische opdrachten.</div>
+            <div class="flex flex-col items-center mt-5 max-w-6xl mx-auto px-4">
+                <h1 class="text-6xl m-5 text-center">Wat we bieden</h1>
+                <div class="flex flex-col w-full">
+                    <div class="flex flex-wrap justify-center">
+                        <div
+                            class="bg-[#F0F0F7] rounded-full text-2xl text-center m-3 p-5 flex-1 min-w-[320px] max-w-[500px]">
+                            Actuele vakkennis: HTML, CSS, JavaScript, Python, databases, Git, Agile/Scrum en meer..
+                        </div>
+                        <div
+                            class="bg-[#D4D4E8] rounded-full text-2xl text-center m-3 p-5 flex-1 min-w-[320px] max-w-[500px]">
+                            Projectmatig onderwijs: Studenten werken in teams aan realistische opdrachten.
+                        </div>
                     </div>
-                    <div class="flex">
-                        <div class="p-3 bg-[#A4A4C9] rounded-full w-[40vw] text-2xl text-center m-3 p-5">Sterke connectie met
-                            het werkveld: Via stages, gastlessen en praktijkopdrachten.</div>
-                        <div class="p-3 bg-[#BFBFDA] rounded-full w-[40vw] text-2xl text-center m-3 p-5">Persoonlijke
-                            begeleiding: Kleine klassen, betrokken docenten en ruimte voor jouw leerroute.</div>
+                    <div class="flex flex-wrap justify-center">
+                        <div
+                            class="bg-[#A4A4C9] rounded-full text-2xl text-center m-3 p-5 flex-1 min-w-[320px] max-w-[500px]">
+                            Sterke connectie met het werkveld: Via stages, gastlessen en praktijkopdrachten.
+                        </div>
+                        <div
+                            class="bg-[#BFBFDA] rounded-full text-2xl text-center m-3 p-5 flex-1 min-w-[320px] max-w-[500px]">
+                            Persoonlijke begeleiding: Kleine klassen, betrokken docenten en ruimte voor jouw leerroute.
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
     <footer class="flex justify-between bg-[#F0F0F7] p-4 text-[#817692] items-center">
         <img src="img/roclogo.png" alt="roc logo" width="5%">
-        <nav clas>
+        <nav class>
             <ul class="flex space-x-4">
                 <li><a href="#" class="hover:underline">Volgende</a></li>
                 <li><a href="contact.html" class="hover:underline">Contact</a></li>

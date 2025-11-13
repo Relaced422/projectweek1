@@ -17,15 +17,15 @@
     <header class="sticky">
         <div>
             <nav class="bg-[#F0F0F7] p-4 relative">
-                <ul class="flex space-x-4 justify-end text-[#817692]">
+                <ul class="flex space-x-4 justify-end text-[#817692] max-w-6xl mx-auto">
                     <li><a href="overons.html" class="hover:underline">Over ons</a></li>
                     <li><a href="contact.html" class="hover:underline">Contact</a></li>
                     <li><a href="samenwerken.html" class="hover:underline">Bedrijven</a></li>
                 </ul>
             </nav>
         </div>
-        <img src="img/rocLogo.png" alt="roc logo" width="12%" class="absolute top-[-20px]">
-        <div>
+        <div class="relative max-w-6xl mx-auto">
+            <img src="img/rocLogo.png" alt="roc logo" width="12%" class="absolute top-[-20px]">
             <nav class="p-4">
                 <ul class="flex space-x-4 text-black font-bold ml-[12vw]">
                     <li><a href="index.html" class="hover:underline">Home</a></li>
@@ -35,53 +35,70 @@
             </nav>
         </div>
     </header>
+
     <main>
         <section class="bg-[#F0F0F7]">
-            <div class="m-10 flex p-3">
-                <div class="w-[80vw]">
+            <div class="max-w-6xl mx-auto m-10 flex flex-wrap p-3 items-center gap-8">
+                <div class="flex-1 min-w-[320px]">
                     <h1 class="text-6xl mb-4">Samenwerken met ROC</h1>
-                    <p class="w-[30vw] text-2xl">Wil jij samenwerken met ROC
-                        & haar Software Developers!</p>
+                    <p class="text-2xl max-w-[500px]">
+                        Wil jij samenwerken met ROC
+                        &amp; haar Software Developers!
+                    </p>
                 </div>
-                <img src="img/devPapers.png" alt="Developer holding some papers" class="mx-10 w-[50vw]">
+                <div class="flex-1 min-w-[320px] flex justify-center">
+                    <img src="img/devPapers.png" alt="Developer holding some papers"
+                        class="w-full max-w-[500px] h-auto mx-10">
+                </div>
             </div>
         </section>
+
         <section>
-            <div class="flex justify-evenly">
-                <div class="w-[40vw] p-8 bg-[#F0F0F7] rounded-lg h-[60vh] m-5 text-2xl">
-                    <p>ROC Nijmegen gelooft in de kracht van samenwerking tussen onderwijs en bedrijfsleven. Als
+            <!-- Twee kolommen -->
+            <div class="flex flex-wrap justify-evenly max-w-6xl mx-auto px-4 py-8 gap-8">
+                <div class="flex-1 min-w-[320px] max-w-[500px] p-8 bg-[#F0F0F7] rounded-lg m-2 text-2xl">
+                    <p>
+                        ROC Nijmegen gelooft in de kracht van samenwerking tussen onderwijs en bedrijfsleven. Als
                         organisatie kun je bijdragen aan de ontwikkeling van jong talent én profiteren van frisse ideeën
                         en actuele kennis. Onze studenten staan te popelen om praktijkervaring op te doen — en daar kun
-                        jij bij helpen.</p>
+                        jij bij helpen.
+                    </p>
                 </div>
-                <div class="w-[40vw] p-8 bg-[#F0F0F7] rounded-lg h-[60vh] m-5 text-2xl">
-                    <p>Neem contact met ons op via:
+                <div class="flex-1 min-w-[320px] max-w-[500px] p-8 bg-[#F0F0F7] rounded-lg m-2 text-2xl">
+                    <p>
+                        Neem contact met ons op via:
                         <br><br>
                         E-mail: info@roc-nijmegen.nl
                         <br><br>
                         Telefoon: 024 – 890 45 00
+                    </p>
                 </div>
             </div>
+
+            <!-- Onderste brede blok -->
             <div class="flex justify-center">
-                <div class="w-[87vw] p-8 bg-[#F0F0F7] rounded-lg h-[60vh] m-5 text-2xl">
-                    <p>Onze studenten leren werken met moderne technologieën zoals HTML, CSS, JavaScript, Python en
-                        databases. Ze denken creatief, werken in teams en zijn gewend aan Agile-methodes. Als bedrijf
-                        kun
-                        je:<br><br>
-                        - Stagiairs begeleiden bij echte projecten<br>
-                        - Samenwerken aan praktijkopdrachten<br>
-                        - Gastlessen geven of meedenken over het curriculum<br>
-                        - Jong talent vroegtijdig leren kennen<br><br>
-                        Wil je meebouwen aan de toekomst van softwareontwikkeling én je organisatie versterken met
-                        frisse
-                        blikken? Neem contact op en ontdek de mogelijkheden.</p>
+                <div class="w-full max-w-6xl px-4">
+                    <div class="p-8 bg-[#F0F0F7] rounded-lg m-5 text-2xl">
+                        <p>
+                            Onze studenten leren werken met moderne technologieën zoals HTML, CSS, JavaScript, Python en
+                            databases. Ze denken creatief, werken in teams en zijn gewend aan Agile-methodes. Als
+                            bedrijf kun je:<br><br>
+                            - Stagiairs begeleiden bij echte projecten<br>
+                            - Samenwerken aan praktijkopdrachten<br>
+                            - Gastlessen geven of meedenken over het curriculum<br>
+                            - Jong talent vroegtijdig leren kennen<br><br>
+                            Wil je meebouwen aan de toekomst van softwareontwikkeling én je organisatie versterken met
+                            frisse blikken? Neem contact op en ontdek de mogelijkheden.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+
     <footer class="flex justify-between bg-[#F0F0F7] p-4 text-[#817692] items-center">
         <img src="img/roclogo.png" alt="roc logo" width="5%">
-        <nav clas>
+        <nav class>
             <ul class="flex space-x-4">
                 <li><a href="#" class="hover:underline">Volgende</a></li>
                 <li><a href="contact.html" class="hover:underline">Contact</a></li>

@@ -17,15 +17,15 @@
     <header class="sticky">
         <div>
             <nav class="bg-[#F0F0F7] p-4 relative">
-                <ul class="flex space-x-4 justify-end text-[#817692]">
+                <ul class="flex space-x-4 justify-end text-[#817692] max-w-6xl mx-auto">
                     <li><a href="overons.html" class="hover:underline">Over ons</a></li>
                     <li><a href="contact.html" class="hover:underline">Contact</a></li>
                     <li><a href="samenwerken.html" class="hover:underline">Bedrijven</a></li>
                 </ul>
             </nav>
         </div>
-        <img src="img/rocLogo.png" alt="roc logo" width="12%" class="absolute top-[-20px]">
-        <div>
+        <div class="relative max-w-6xl mx-auto">
+            <img src="img/rocLogo.png" alt="roc logo" width="12%" class="absolute top-[-20px]">
             <nav class="p-4">
                 <ul class="flex space-x-4 text-black font-bold ml-[12vw]">
                     <li><a href="index.html" class="hover:underline">Home</a></li>
@@ -35,21 +35,32 @@
             </nav>
         </div>
     </header>
+
     <main>
+        <!-- Hero / Contact intro -->
         <section class="bg-[#F0F0F7]">
-            <div class="m-10 flex p-3">
-                <div class="w-[80vw]">
+            <div class="max-w-6xl mx-auto m-10 flex flex-wrap p-3 items-center gap-8">
+                <div class="flex-1 min-w-[320px]">
                     <h1 class="text-6xl mb-4">Contact met Technovium</h1>
-                    <p class="w-[30vw] text-2xl">Vragen over de opleiding Software Developer? Neem contact op via e-mail, telefoon of het
-                        contactformulier. Langskomen mag ook — je bent welkom!</p>
+                    <p class="text-2xl max-w-[500px]">
+                        Vragen over de opleiding Software Developer? Neem contact op via e-mail, telefoon of het
+                        contactformulier. Langskomen mag ook — je bent welkom!
+                    </p>
                 </div>
-                <img src="img/devCalling.png" alt="Developer on the phone" class="mx-10 w-[50vw]">
+                <div class="flex-1 min-w-[320px] flex justify-center">
+                    <img src="img/devCalling.png" alt="Developer on the phone"
+                        class="w-full max-w-[500px] h-auto mx-10">
+                </div>
             </div>
         </section>
+
+        <!-- Info + Form -->
         <section>
-            <div class="flex justify-evenly">
-                <div class="w-[40vw] p-8 bg-[#F0F0F7] rounded-lg h-[60vh] m-5">
-                    <p>Heb je interesse in de opleiding Software Developer bij ROC Nijmegen en wil je meer weten? Neem
+            <div class="flex flex-wrap justify-evenly max-w-6xl mx-auto px-4 py-8 gap-8">
+                <!-- Info block -->
+                <div class="flex-1 min-w-[320px] max-w-[500px] p-8 bg-[#F0F0F7] rounded-lg m-2">
+                    <p>
+                        Heb je interesse in de opleiding Software Developer bij ROC Nijmegen en wil je meer weten? Neem
                         dan gerust contact op met ons team op locatie Technovium. We staan klaar om je vragen te
                         beantwoorden over de inhoud van de opleiding, toelatingseisen, studiemogelijkheden en het
                         studentenleven.
@@ -61,26 +72,39 @@
                         <br><br>
                         Wil je liever persoonlijk langskomen? Loop gerust binnen tijdens onze open dagen of maak een
                         afspraak voor een rondleiding. Zo krijg je een goed beeld van de sfeer, de docenten en de
-                        praktijkgerichte aanpak van onze Software Developer-opleiding.</p>
+                        praktijkgerichte aanpak van onze Software Developer-opleiding.
+                    </p>
                 </div>
-                <div>
-                    <form action="" class="bg-[#F0F0F7] p-8 rounded-lg h-[60vh] m-5">
+
+                <!-- Form block -->
+                <div class="flex-1 min-w-[320px] max-w-[500px] m-2">
+                    <form action="" class="bg-[#F0F0F7] p-8 rounded-lg">
                         <h1 class="text-4xl">Contactformulier</h1>
                         <div class="flex flex-col mt-4">
                             <label for="name" class="m-2">Naam:</label>
-                            <input type="text" id="name" name="name" class="bg-[#D2D2F1] p-2 border border-gray-300 rounded-lg" placeholder="Type hier uw naam">
+                            <input type="text" id="name" name="name"
+                                class="bg-[#D2D2F1] p-2 border border-gray-300 rounded-lg"
+                                placeholder="Type hier uw naam">
+
                             <label for="email" class="m-2">E-mail:</label>
-                            <input type="email" id="email" name="email" class="bg-[#D2D2F1] p-2 border border-gray-300 rounded-lg" placeholder="Type hier uw Email">
+                            <input type="email" id="email" name="email"
+                                class="bg-[#D2D2F1] p-2 border border-gray-300 rounded-lg"
+                                placeholder="Type hier uw Email">
+
                             <label for="message" class="m-2">Bericht:</label>
-                            <textarea id="message" name="message" rows="4" class="bg-[#D2D2F1] p-2 border border-gray-300 rounded-lg" placeholder="Type hier uw bericht"></textarea>
+                            <textarea id="message" name="message" rows="4"
+                                class="bg-[#D2D2F1] p-2 border border-gray-300 rounded-lg"
+                                placeholder="Type hier uw bericht"></textarea>
                         </div>
+                    </form>
                 </div>
             </div>
         </section>
     </main>
+
     <footer class="flex justify-between bg-[#F0F0F7] p-4 text-[#817692] items-center">
         <img src="img/roclogo.png" alt="roc logo" width="5%">
-        <nav clas>
+        <nav class>
             <ul class="flex space-x-4">
                 <li><a href="#" class="hover:underline">Volgende</a></li>
                 <li><a href="contact.html" class="hover:underline">Contact</a></li>

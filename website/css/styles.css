@@ -1,3 +1,14 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Beperk de totale breedte van de site tot 1920px en centreer 'm */
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}

@@ -17,17 +17,17 @@
     <header class="sticky">
         <div>
             <nav class="bg-[#F0F0F7] p-4 relative">
-                <ul class="flex space-x-4 justify-end text-[#817692]">
+                <ul class="flex space-x-4 justify-end text-[#817692] h-[10vh] max-w-6xl mx-auto">
                     <li><a href="overons.html" class="hover:underline">Over ons</a></li>
                     <li><a href="contact.html" class="hover:underline">Contact</a></li>
                     <li><a href="samenwerken.html" class="hover:underline">Bedrijven</a></li>
                 </ul>
             </nav>
         </div>
-        <img src="img/rocLogo.png" alt="roc logo" width="12%" class="absolute top-[-20px]">
-        <div>
+        <div class="relative max-w-6xl mx-auto">
+            <img src="img/rocLogo.png" alt="roc logo" width="12%" class="absolute top-[-20px]">
             <nav class="p-4">
-                <ul class="flex space-x-4 text-black font-bold ml-[12vw]">
+                <ul class="flex space-x-4 text-black font-bold ml-[12vw] h-[10vh]">
                     <li><a href="index.html" class="hover:underline">Home</a></li>
                     <li><a href="opleiding.html" class="hover:underline">Opleiding</a></li>
                     <li><a href="toekomst.html" class="hover:underline">Toekomst</a></li>
@@ -35,88 +35,91 @@
             </nav>
         </div>
     </header>
+
     <main>
         <!-- Main section with links -->
         <section class="bg-[#F0F0F7]">
-            <div class="flex">
-                <div class="ml-[15vw] mt-[2vw] text-[#402E56] font-bold">
+            <div class="flex flex-wrap max-w-6xl mx-auto">
+                <div class="mt-[2vw] text-[#402E56] font-bold flex-1 min-w-[320px] px-4">
                     <h1 class="text-6xl">Software<br>Developer</h1>
                     <h3 class="text-2xl mt-[2vw]">Bouw wat morgen nodig heeft</h3>
                     <nav>
                         <ul class="flex space-x-4 mt-[2vw]">
-                            <li><a href="#" class="hover:underline">Home</a></li>
-                            <li><a href="#" class="hover:underline">Opleiding</a></li>
-                            <li><a href="#" class="hover:underline">Toekomst</a></li>
+                            <li><a href="index.html" class="hover:underline">Home</a></li>
+                            <li><a href="opleiding.html" class="hover:underline">Opleiding</a></li>
+                            <li><a href="toekomst.html" class="hover:underline">Toekomst</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="width-[500px] flex justify-end">
-                    <img src="img/developer.png" alt="an image that resembles a software developer" width="75%">
+                <div class="flex justify-end flex-1 min-w-[320px] px-4">
+                    <img src="img/developer.png" alt="an image that resembles a software developer"
+                        class="w-full max-w-[500px] h-auto">
                 </div>
             </div>
         </section>
+
         <!-- Main section with actual -->
         <section>
-            <div class="flex justify-center">
-                <div class="flex flex-col m-[7vh] bg-[#EEAD2B] rounded-lg p-[20px] h-[60vh]">
-                    <h2 class="text-4xl font-bold text-[#402E56]">Wat doet een Software Developer?</h2>
+            <!-- Row 1 -->
+            <div class="flex flex-wrap justify-center max-w-6xl mx-auto px-4 py-8 gap-8">
+                <div class="flex flex-col bg-[#EEAD2B] rounded-lg p-[20px] flex-1 min-w-[320px]">
+                    <h2 class="text-4xl font-bold text-[#402E56] mb-4">Wat doet een Software Developer?</h2>
                     <div class="text-balance">
-                        <p> Software Developer bedenkt en bouwt de technologie achter websites, apps en programma’s die
-                            we
-                            dagelijks gebruiken.<br> Denk aan social media-platforms, online winkels, games of zelfs de
-                            software
-                            in
+                        <p>
+                            Software Developer bedenkt en bouwt de technologie achter websites, apps en programma’s die
+                            we dagelijks gebruiken.<br>
+                            Denk aan social media-platforms, online winkels, games of zelfs de software in
                             auto’s en telefoons.
-                            <br>
-                            <br>
+                            <br><br>
                             Als developer schrijf je code in verschillende programmeertalen, zoals Java, HTML, CSS en
-                            JavaScript, om ideeën om te zetten in werkende producten.<br> Je test of alles goed werkt,
-                            lost
-                            fouten
-                            op en zorgt dat de software veilig en gebruiksvriendelijk blijft.
-                            <br>
-                            <br>
-                            Daarnaast werk je vaak samen met andere ontwikkelaars en ontwerpers.<br> Samen bespreek je
-                            wat de
-                            gebruiker nodig heeft en hoe je dat technisch het beste kunt bouwen.
-                            <br>
-                            <br>
+                            JavaScript, om ideeën om te zetten in werkende producten.<br>
+                            Je test of alles goed werkt, lost fouten op en zorgt dat de software veilig en
+                            gebruiksvriendelijk blijft.
+                            <br><br>
+                            Daarnaast werk je vaak samen met andere ontwikkelaars en ontwerpers.<br>
+                            Samen bespreek je wat de gebruiker nodig heeft en hoe je dat technisch het beste kunt
+                            bouwen.
+                            <br><br>
                             Kort gezegd: een Software Developer is een probleemoplosser die technologie maakt die het
-                            leven
-                            makkelijker, sneller en slimmer maakt.
+                            leven makkelijker, sneller en slimmer maakt.
                         </p>
                     </div>
                 </div>
-                <img src="img/classPicture1.png" alt="Picture of a class" class="h-[60vh] m-[7vh] rounded-lg">
+                <div class="flex-1 min-w-[320px]">
+                    <img src="img/classPicture1.png" alt="Picture of a class"
+                        class="w-full h-full max-h-[400px] object-cover rounded-lg">
+                </div>
             </div>
-            <div class="flex justify-center">
-                <img src="img/classPicture2.png" alt="Picture of a class" class="h-[60vh] m-[7vh] rounded-lg">
-                <div class="flex bg-[#6E6EB4] h-[60vh] flex-col m-[7vh] rounded-lg p-[20px]">
-                    <h2 class="text-4xl font-bold text-[#402E56]">Waarom kiezen voor ROC Nijmegen?</h2>
-                    <div class="text-balance">
-                        <p> Bij ROC Nijmegen leer je niet alleen programmeren, maar ook samenwerken, plannen en
-                            oplossingen
-                            bedenken voor echte situaties.
+
+            <!-- Row 2 -->
+            <div class="flex flex-wrap justify-center max-w-6xl mx-auto px-4 py-8 gap-8">
+                <div class="flex-1 min-w-[320px]">
+                    <img src="img/classPicture2.png" alt="Picture of a class"
+                        class="w-full h-full max-h-[400px] object-cover rounded-lg">
+                </div>
+                <div class="flex bg-[#6E6EB4] flex-col rounded-lg p-[20px] flex-1 min-w-[320px]">
+                    <h2 class="text-4xl font-bold text-[#402E56] mb-4">Waarom kiezen voor ROC Nijmegen?</h2>
+                    <div class="text-balance text-white">
+                        <p>
+                            Bij ROC Nijmegen leer je niet alleen programmeren, maar ook samenwerken, plannen en
+                            oplossingen bedenken voor echte situaties.
                             Je werkt aan echte projecten, bouwt je eigen portfolio op en krijgt les van ervaren docenten
-                            uit
-                            het vakgebied.
-                            <br>
-                            <br>
+                            uit het vakgebied.
+                            <br><br>
                             De opleiding bereidt je voor op de praktijk — of je nu later bij een bedrijf wilt werken, of
-                            je
-                            eigen projecten en websites wilt ontwikkelen.
+                            je eigen projecten en websites wilt ontwikkelen.
                             Met moderne werkplekken, een sterke community en goede begeleiding, krijg je bij ROC
-                            Nijmegen
-                            alle ruimte om te groeien als developer én als persoon.
+                            Nijmegen alle ruimte om te groeien als developer én als persoon.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
     <footer class="flex justify-between bg-[#F0F0F7] p-4 text-[#817692] items-center">
         <img src="img/roclogo.png" alt="roc logo" width="5%">
-        <nav clas>
+        <nav class>
             <ul class="flex space-x-4">
                 <li><a href="#" class="hover:underline">Volgende</a></li>
                 <li><a href="contact.html" class="hover:underline">Contact</a></li>
