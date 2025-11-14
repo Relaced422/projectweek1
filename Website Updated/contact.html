@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projectweek 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="sticky">
+        <div>
+            <nav class="bg-[#F0F0F7] p-4 relative">
+                <ul class="flex space-x-4 justify-end text-[#817692]">
+                    <li><a href="overons.html" class="hover:underline">Over ons</a></li>
+                    <li><a href="contact.html" class="hover:underline">Contact</a></li>
+                    <li><a href="samenwerken.html" class="hover:underline">Bedrijven</a></li>
+                </ul>
+            </nav>
+        </div>
+        <img src="img/rocLogo.png" alt="roc logo" width="12%" class="absolute top-[-20px]">
+        <div>
+            <nav class="p-4">
+                <ul class="flex space-x-4 text-black font-bold ml-[12vw]">
+                    <li><a href="index.html" class="hover:underline">Home</a></li>
+                    <li><a href="opleiding.html" class="hover:underline">Opleiding</a></li>
+                    <li><a href="toekomst.html" class="hover:underline">Toekomst</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="bg-[#F0F0F7]">
+            <div class="m-10 flex p-3">
+                <div class="w-[80vw]">
+                    <h1 class="text-6xl mb-4">Contact met Technovium</h1>
+                    <p class="w-[30vw] text-2xl">Vragen over de opleiding Software Developer? Neem contact op via e-mail, telefoon of het
+                        contactformulier. Langskomen mag ook — je bent welkom!</p>
+                </div>
+                <img src="img/devCalling.png" alt="Developer on the phone" class="mx-10 w-[50vw]">
+            </div>
+        </section>
+        <section>
+            <div class="flex justify-evenly">
+                <div class="w-[40vw] p-8 bg-[#F0F0F7] rounded-lg h-[60vh] m-5">
+                    <p>Heb je interesse in de opleiding Software Developer bij ROC Nijmegen en wil je meer weten? Neem
+                        dan gerust contact op met ons team op locatie Technovium. We staan klaar om je vragen te
+                        beantwoorden over de inhoud van de opleiding, toelatingseisen, studiemogelijkheden en het
+                        studentenleven.
+                        <br><br>
+                        Zo kun je ons bereiken:<br>
+                        📍 Bezoekadres: Heijendaalseweg 98, 6525 EJ Nijmegen<br>
+                        📧 E-mail: info@roc-nijmegen.nl<br>
+                        ☎️ Telefoon: 024 – 890 45 00<br>
+                        <br><br>
+                        Wil je liever persoonlijk langskomen? Loop gerust binnen tijdens onze open dagen of maak een
+                        afspraak voor een rondleiding. Zo krijg je een goed beeld van de sfeer, de docenten en de
+                        praktijkgerichte aanpak van onze Software Developer-opleiding.</p>
+                </div>
+                <div>
+                    <form action="" class="bg-[#F0F0F7] p-8 rounded-lg h-[60vh] m-5">
+                        <h1 class="text-4xl">Contactformulier</h1>
+                        <div class="flex flex-col mt-4">
+                            <label for="name" class="m-2">Naam:</label>
+                            <input type="text" id="name" name="name" class="bg-[#D2D2F1] p-2 border border-gray-300 rounded-lg" placeholder="Type hier uw naam">
+                            <label for="email" class="m-2">E-mail:</label>
+                            <input type="email" id="email" name="email" class="bg-[#D2D2F1] p-2 border border-gray-300 rounded-lg" placeholder="Type hier uw Email">
+                            <label for="message" class="m-2">Bericht:</label>
+                            <textarea id="message" name="message" rows="4" class="bg-[#D2D2F1] p-2 border border-gray-300 rounded-lg" placeholder="Type hier uw bericht"></textarea>
+                        </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="flex justify-between bg-[#F0F0F7] p-4 text-[#817692] items-center">
+        <img src="img/roclogo.png" alt="roc logo" width="5%">
+        <nav clas>
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:underline">Home</a></li>
+                <li><a href="contact.html" class="hover:underline">Contact</a></li>
+                <li><a href="#" class="hover:underline">Social Media</a></li>
+            </ul>
+        </nav>
+        <img src="img/roclogo.png" alt="roc logo" width="5%" class="opacity-0">
+    </footer>
+</body>
+
+</html>
